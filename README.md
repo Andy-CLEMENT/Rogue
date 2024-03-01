@@ -1,27 +1,28 @@
 # Rogue
 Projet de jeu Rogue-like en language python réalisé dans le but de la formation de prépa intégrée de Polytech Nice-Sophia
 
-READ THIS:
-Il faut installer le module keyboard pour le bon fonctionnement du jeu
+<h1>READ THIS:</h1>
+<p>Il faut installer le module keyboard pour le bon fonctionnement du jeu</p>
 
-Dès que vous commencez vous devez choisir votre héros. Quatre choix s’offrent à vous. Pour plus d’informations sur leur spécificité appuyez sur “i”.
+<p>Dès que vous commencez vous devez choisir votre héros. Quatre choix s’offrent à vous. Pour plus d’informations sur leur spécificité appuyez sur “i”.</p>
 
-Vous êtes à présent en jeu. Vous pouvez vous déplacer afin de chercher de l’équipement ou des objets. 
+<p>Vous êtes à présent en jeu. Vous pouvez vous déplacer afin de chercher de l’équipement ou des objets. 
 Attention des monstres vous attaqueront, certains peuvent vous donner des effets ou vous attaquer à distance. 
 Vous pouvez récolter de l’or afin d’acheter de l’équipement au marchand ou de l’acier afin que le forgerons vous améliore un équipement. 
-Votre objectif est de trouver le boss de l’étage et de le vaincre. C'est seulement après qu’un escalier apparaitra pour vous emmener à l’étage suivant. 
+Votre objectif est de trouver le boss de l’étage et de le vaincre. C'est seulement après qu’un escalier apparaitra pour vous emmener à l’étage suivant. </p>
 
  
-                            Commande clavier :
-Commande personnage :
-    Haut:       z
-    Bas:        s
-    Gauche:     q
-    Droite:	    d
-    Tirer un projectile: t
-    Utiliser:	u
-    Déséquiper:	b
-    Jeter:      a
+ <h2>Commande clavier :</h2>
+<p>Commande personnage :
+    <ul>
+    <li>Haut:       z</li>
+    <li>Bas:        s</li>
+   <li>Gauche:     q</li>
+    <li>Droite:	    d</li>
+    <li>Tirer un projectile: t</li>
+    <li>Utiliser:	u</li>
+    <li>Déséquiper:	b</li>
+    <li>Jeter:      a</li></ul></p>
 
 Commande de Gameplay :
     Menu Pause:     p
@@ -29,8 +30,7 @@ Commande de Gameplay :
     Description du personnage:	i
     Voir actions possible:  h
 
-
-                            Elément :
+<h2>Elément :</h2>
 Objet :
     Potion "!":             Augmente les points de vie (2-5)
     Potion TP "!":	        Vous téléporte sur la carte (usage unique)
@@ -64,7 +64,7 @@ Amulette :
 
 
 
-                            Creatures :
+<h2>Creatures </h2>
 
 Héros:
     SwordMan "@" :  epéiste de talent
