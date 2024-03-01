@@ -1,5 +1,6 @@
 # Rogue
-Projet de jeu Rogue-like en language python réalisé dans le but de la formation de prépa intégrée de Polytech Nice-Sophia
+Projet de jeu Rogue-like en language python réalisé dans le but de la formation de prépa intégrée de Polytech Nice-Sophia.
+Projet à quatre personnes.
 
 <h1>READ THIS:</h1>
 <p>Il faut installer le module keyboard pour le bon fonctionnement du jeu</p>
