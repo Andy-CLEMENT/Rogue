@@ -1,3 +1,6 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Polytechnicesophia.png" alt="Logo Polytech Nice Sophia" title="Logo Polytech Nice Sophia">
+
+
 # Rogue
 Projet de jeu Rogue-like en language python réalisé dans le but de la formation de prépa intégrée de Polytech Nice-Sophia.
 Projet à quatre personnes.
