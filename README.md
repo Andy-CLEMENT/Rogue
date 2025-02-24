@@ -2,100 +2,98 @@
 
 
 # Rogue
-Projet de jeu Rogue-like en language python réalisé dans le but de la formation de prépa intégrée de Polytech Nice-Sophia.
-Projet à quatre personnes.
+Rogue-like game project in Python language for the integrated preparatory course at Polytech Nice-Sophia.
+A four-person project.
 
 <h1>READ THIS:</h1>
-<p>Il faut installer le module keyboard pour le bon fonctionnement du jeu</p>
+<p>The keyboard module must be installed for the game to work properly.</p>
 
-<p>Dès que vous commencez vous devez choisir votre héros. Quatre choix s’offrent à vous. Pour plus d’informations sur leur spécificité appuyez sur “i”.</p>
+<p>As soon as you start you have to choose your hero. There are four to choose from. For more information on their specific features, click on ‘i’.</p>
 
-<p>Vous êtes à présent en jeu. Vous pouvez vous déplacer afin de chercher de l’équipement ou des objets. 
-Attention des monstres vous attaqueront, certains peuvent vous donner des effets ou vous attaquer à distance. 
-Vous pouvez récolter de l’or afin d’acheter de l’équipement au marchand ou de l’acier afin que le forgerons vous améliore un équipement. 
-Votre objectif est de trouver le boss de l’étage et de le vaincre. C'est seulement après qu’un escalier apparaitra pour vous emmener à l’étage suivant. </p>
+<p>You are now in the game. You can move around to search for equipment or items. 
+Beware of the monsters that will attack you, some of which can give you effects or attack you from a distance. 
+You can collect gold to buy equipment from the merchant or steel for the blacksmith to improve your equipment. 
+Your objective is to find the boss of the floor and defeat him. Only then will a staircase appear to take you to the next floor.</p>
 
  
- <h2>Commande clavier :</h2>
-<p>Commande personnage :
+ <h2>Keyboard control :</h2>
+<p>Character command :
     <ul>
-    <li>Haut:       z</li>
-    <li>Bas:        s</li>
-   <li>Gauche:     q</li>
-    <li>Droite:	    d</li>
-    <li>Tirer un projectile: t</li>
-    <li>Utiliser:	u</li>
-    <li>Déséquiper:	b</li>
-    <li>Jeter:      a</li></ul></p>
+    <li>Top:       z</li>
+    <li>Bottom:        s</li>
+   <li>Left:     q</li>
+    <li>Right:	    d</li>
+    <li>Firing a projectile: t</li>
+    <li>Use:	u</li>
+    <li>De-equipping:	b</li>
+    <li>Drop:      a</li></ul></p>
 
-<p>Commande de Gameplay :
+<p>Gameplay control :
    <ul>
-    <li>Menu Pause:     p</li>
-    <li>Suicider:       k</li>
-    <li>Description du personnage:	i</li>
-    <li>Voir actions possible:  h</li></ul></p>
+    <li>Pause Menu:     p</li>
+    <li>Suicide:       k</li>
+    <li>Character description:	i</li>
+    <li>See possible actions:  h</li></ul></p>
 
-<h2>Elément :</h2>
-<p>Objet :
+<h2>Items :</h2>
+<p>Object :
     <ul>
-     <li>Potion "!":             Augmente les points de vie (2-5)</li>
-     <li>Potion TP "!":	        Vous téléporte sur la carte (usage unique)</li>
-     <li>Gold "o":               Utilisée pour l’échange avec le marchand</li>
-     <li>Acier "a":              Utilisée pour l’échange avec le forgeron</li>
-     <li>Portoloin "w":          Vous téléporte sur la carte (usage permanent)</li>
-     <li>Pierre philosophale:    Permet d'avoir une seconde vie </li>
-     <li>FullBoost:              Augmente de façon permanente les stats du héro </li></ul></p>
+     <li>Potion "!":              Increases health points (2-5)</li>
+     <li>Potion TP "!":	        Teleports you somewhere on the map (single use)</li>
+     <li>Gold "o":                Used for exchanges with merchants</li>
+     <li>Steel "a":               Used to trade with the blacksmith</li>
+     <li>Portoloin "w":          Teleports you somewhere on the map (multiple use)</li>
+     <li>Philosopher's stone :   Gives it a second life  </li>
+     <li>FullBoost:               Permanently increases the hero's stats </li></ul></p>
 
-<p>Armes :
+<p>Weapons :
     <ul>
-     <li>Epée "é":           Donne plus de force</li>
-     <li>Hallebarde "H":     Donne plus de force</li>
-     <li>Excalibur "X":      Donne plus de force</li></ul></p>
+     <li>Sword "é":           Gives you more strength</li>
+     <li>Halberd "H":    Gives you more strength</li>
+     <li>Excalibur "X":      Gives you more strength</li></ul></p>
 
-<p>Armes à distance :
+<p>Ranged weapons  :
     <ul>
-    <li>Dagger "d":     Faible portée, faible dégâts</li>
-    <li>Bow “b”:        Longue portée </li>
-    <li>Poison bow “p”:	Longue portée, empoisonne l’ennemi</li>
-    <li>Frozen bow “f”:	Moyenne portée, freeze l’ennemi pendant deux tour (30% de chance)</li></ul></p>
+    <li>Dagger "d":     Short range, low damage</li>
+    <li>Bow “b”:        Long range </li>
+    <li>Poison bow “p”:	Long range, poisons the enemy</li>
+    <li>Frozen bow “f”: Medium range, freezes the enemy for two turns (30% chance)</li></ul></p>
 
-<p>Armures :
+<p>Armors :
     <ul>
-    <li>Armure de bronze:   Augmente la défense</li>
-    <li>Armure d’argent:	Augmente la défense</li>
-   <li> Armure d’or:        Augmente la défense</li></ul></p>
-*PS : la défense est une réduction de dégâts 
+    <li>Bronze armour: Increases defence</li>
+    <li>Silver armour: Increases defence</li>
+   <li> Golden armour: Increases defence</li></ul></p>
+*PS : defence is a reduction in damage
 
 
-<p>Amulette :
+<p>Amulet:
     <ul>
-   <li>Amuheal “A”:    Augmente le nombre de PV maximal du héros et régénère ça santé au bout de n tours</li>
-    <li>Amucrit “C”:    Augmente la force et débloque la possibilité d’assener un coup critique tous les n tours</li></ul></p>
+        <li>Amuheal “A”: Increases the hero's maximum HP and regenerates health every n turns</li>
+        <li>Amucrit “C”: Increases strength and unlocks the ability to deal a critical hit every n turns</li></ul></p>
 
+<h2>Creatures</h2>
 
-
-<h2>Creatures </h2>
-
-<p>Héros:
+<p>Heroes:
     <ul>
-    <li>SwordMan "@" :  epéiste de talent</li>
-    <li>Tank "R":       homme énorme qui sait encaisser des dégats</li>
-    <li>Archer "F":     archere qui commence avec un arc</li>
-    <li>LuckyGirl "L":  Comence avec 3 golds et 2 objets aléatoires</li></ul></p>
+        <li>SwordMan "@": A skilled swordsman</li>
+        <li>Tank "R": A large man who can take damage</li>
+        <li>Archer "F": An archer who starts with a bow</li>
+        <li>LuckyGirl "L": Starts with 3 gold and 2 random items</li></ul></p>
 
-<p>Monstre :
+<p>Monsters:
     <ul>
-     <li>Archer empoisonné "k":  Lance des flèches empoisonnées</li>
-    <li>Mage de glace "m":      Lance des projectiles qui immobilise la cible</li>
-    <li>Archer "A":             Lance des projectiles</li>
-   <li> Chauve-Souris "W":      Lance des projectiles empoisonnées</li></ul></p>
+        <li>Poisoned Archer "k": Shoots poisoned arrows</li>
+        <li>Ice Mage "m": Shoots projectiles that immobilize the target</li>
+        <li>Archer "A": Shoots projectiles</li>
+        <li>Bat "W": Shoots poisoned projectiles</li></ul></p>
 
-<p>Boss :
-Abréviation des bosses = « $ »
-     <ul>
-    <li>Robin:      Boss qui jette des projectiles</li>
-    <li>Joker:      Boss qui invoque des sbires chaque n tour</li>
-    <li>Thanos: 	Boss qui se téléporte à chaque fois qu’il subit des dégâts </li>
-    <li>Ragnar:	    Boss corp-à-corps</li>
-    <li>Grievious:	Boss corp-à-corps</li>
-    <li>Radahn:	    Boss corp-à-corps</li></ul></p>
+<p>Bosses:
+    Abbreviation for bosses = "$"
+    <ul>
+        <li>Robin: Boss who throws projectiles</li>
+        <li>Joker: Boss who summons minions every n turns</li>
+        <li>Thanos: Boss who teleports every time he takes damage</li>
+        <li>Ragnar: Melee boss</li>
+        <li>Grievious: Melee boss</li>
+        <li>Radahn: Melee boss</li></ul></p>
